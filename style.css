@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #666;
+}
+
+.banner {
+    background-image: url('img/2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.banner-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    align-items: center;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.more{
+    color: #1d1d1d;
+}
+
+.read-more {
+    background-color: #ffcf7c;
+    color: #1d1d1d;
+}
+
+.apply {
+    background-color: #589eff;
+    color: #1d1d1d;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+}
+
+.rectangle {
+    background-color: #f0f0f0;
+    padding: 90px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-2 {
+    background-color: #eee;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.banner-2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons-2 {
+    align-items: center;
+}
+
+.buttons-2 button {
+    font-size: 18px;
+    padding: 20px 140px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.purchase {
+    background-color: #ffc053;
+    border: #ffbb00;
+    color: #fff;
+}
+
+.try {
+    background-color: #e73131;
+    border: #ff0000;
+    color: #fff;
+}
+
+.banner-3 {
+    background-image: url('img/2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    position: relative;
+}
+
+.arrows {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.arrow-left,
+.arrow-right {
+    color: #fff;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dot {
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    opacity: 1;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    border: 1px solid #909090;
+    padding: 0px;
+}
+
+.column {
+    margin-top: 25px;
+    flex: 1;
+    padding: 0 230px;
+}
+
+.column p {
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-top: auto;
+}
+
+footer .logo {
+    font-size: 24px;
+}
+
+footer .contacts {
+    text-align: center;
+}
+
+footer-2 .contacts-2 {
+    background-color: #cecece;
+    text-align: center;
+}
+
+footer .contacts p {
+    font-size: 18px;
+}
+
+footer nav ul {
+    display: grid;
+    list-style: none;
+}
+
+footer nav ul li {
+    margin-right: 30px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+footer nav ul li a:hover {
+    color: #666;
+}
